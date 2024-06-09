@@ -1,11 +1,17 @@
-body {
-    /* background-image: url("Images/Background.jpg"); */
+/* index.html */
+/* --------- */
+/* --------- */
+/* --------- */
+/* --------- */
+/* --------- */
+
+#indexPage {
     background: linear-gradient(to bottom, #000000, #5d625ed0);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-.menu {
+#indexPage .menu {
     width: 100%;
     height: 200px;
     box-shadow: 0px 0px 20px black;
@@ -14,7 +20,7 @@ body {
     right: 0px;
 }
 
-#about, #contact, #education, #experience, #skills {
+#indexPage #about, #indexPage #contact, #indexPage #education, #indexPage #experience, #indexPage #skills {
     display: inline-block;
     background: none;
     border: none;
@@ -26,12 +32,12 @@ body {
     top: 50px;
 }
 
-#feedback {
+#indexPage #feedback {
     display: inline-block;
     background: none;
     border: 2px solid;
     font-size: 20px;
-    font-family: "Roboto Mono";
+    font-family: "Roboto Mono", arial, sans-serif;
     font-weight: bolder;
     color: purple;
     position: absolute;
@@ -39,38 +45,38 @@ body {
     right: 20px;
 }
 
-#contact {
+#indexPage #contact {
     right: 160px;
 }
 
-#about {
+#indexPage #about {
     right: 290px;
 }
 
-#education {
+#indexPage #education {
     right: 400px;
 }
 
-#experience {
+#indexPage #experience {
     right: 560px;
 }
 
-#skills {
+#indexPage #skills {
     right: 740px;
 }
 
-#about:hover, #contact:hover, #education:hover, #experience:hover, #skills:hover {
+#indexPage #about:hover, #indexPage #contact:hover, #indexPage #education:hover, #indexPage #experience:hover, #indexPage #skills:hover {
     cursor: pointer;
     color: white;
     transform: translateY(3px);
 }
 
-#feedback:hover {
+#indexPage #feedback:hover {
     cursor: pointer;
     color: rgb(22, 162, 92);   
 }
 
-#me {
+#indexPage #me {
     width: 200px;
     height: 200px;
     border: 5px solid black;
@@ -80,24 +86,24 @@ body {
     left: 45%;
 }
 
-.intro {
+#indexPage .intro {
     width: 300px;
     height: 100px;
     position: absolute;
     top: 45%;
     left: 43%;
-    font-family: "Kanit";
+    font-family: "Kanit", arial, sans-serif;
 }
 
-.intro h1 {
+#indexPage .intro h1 {
     color: white;
 }
 
-.intro:hover {
+#indexPage .intro:hover {
     cursor: default;
 }
 
-#name {
+#indexPage #name {
     color: white;
     position: absolute;
     font-size: 40px;
@@ -106,12 +112,12 @@ body {
     line-height:0.8em;
 }
 
-#name span {
+#indexPage #name span {
     color: rgba(236, 73, 144, 0.892);
     font-weight: 550;
 }
 
-#profession {
+#indexPage #profession {
     color: rgba(24, 196, 181, 0.558);
     position: absolute;
     font-size: 25px;
@@ -122,7 +128,7 @@ body {
     padding: 5px 35px;
 }
 
-.followMe {
+#indexPage .followMe {
     width: 100%;
     height: 100px;
     position: absolute;
@@ -133,42 +139,157 @@ body {
     box-shadow: 5px 0px 30px black;
 }
 
-.followMe p {
+#indexPage .followMe p {
     color: rgb(0, 0, 0);
     text-align: center;
-    font-family: "Josefin Sans";
+    font-family: "Josefin Sans", arial, sans-serif;
     font-size: 17px;
     font-weight: bold;
     text-decoration: underline;
 }
 
-.icons {
+#indexPage .icons {
     width: 450px;
     font-size: 40px;
     position: absolute;
     left: 37%;
 }
 
-.fa-youtube {
+#indexPage .fa-youtube {
     position: absolute;
 }
 
-.fa-facebook {
+#indexPage .fa-facebook {
     position: absolute;
     left: 20%;
 }
 
-.fa-linkedin {
+#indexPage .fa-linkedin {
     position: absolute;
     left: 40%;
 }
 
-.fa-square-x-twitter {
+#indexPage .fa-square-x-twitter {
     position: absolute;
     left: 60%;
 }
 
-.fa-square-instagram {
+#indexPage .fa-square-instagram {
     position: absolute;
     left: 80%;
+}
+
+/* feedback.html */
+/* ------------ */
+/* ------------ */
+/* ------------ */
+/* ------------ */
+/* ------------ */
+
+#feedbackPage {
+    background-image: url("Background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#feedbackPage h1 {
+    background-color: rgba(255, 255, 255, 0.589);
+    color: rgba(162, 2, 255, 0.474);
+    font-family: "Bebas Neue", arial, sans-serif;
+    font-size: 70px;
+    font-weight: lighter;
+    text-align: center;
+    border: 5px solid;
+    margin: 0px;
+}
+
+#feedbackPage h1:hover {
+    cursor: default;
+}
+
+#feedbackPage form {
+    background-color: rgba(234, 106, 15, 0.212);
+    border: 2px solid rgba(234, 106, 15, 0.212);
+    padding: 30px 10px;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+
+#feedbackPage label, #feedbackPage input {
+    font-family: "Chakra Petch", arial, sans-serif;
+    font-size: 20px;
+    font-weight: light;
+    text-align: center;
+}
+
+#feedbackPage label {
+    padding-right: 20px;
+}
+
+#feedbackPage .rating {
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    margin: auto;
+    max-width: 300px;
+    padding: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#feedbackPage .rating header {
+    color: rgba(0, 0, 0, 0.3);
+    font-family: "Josefin Sans", arial, sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#feedbackPage .stars {
+    color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#feedbackPage .stars i {
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+#feedbackPage .stars i.on {
+    color: orange;
+}
+
+#feedbackPage .commentBox {
+    display: block;
+}
+
+#feedbackPage .commentBox header {
+    background-color: rgba(255, 149, 0, 0.922);
+    font-family: "Chakra Petch", arial, sans-serif;
+    font-size: 20px;
+    border: 2px outset rgba(255, 149, 0, 0.922);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-right: 5px;
+    margin: auto;
+    height: 100%;
+    width: 97%;
+    max-width: 400px;
+}
+
+#feedbackPage .commentBox textarea {
+    border: 1px solid rgba(255, 149, 0, 0.922);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-right: 5px;
+    margin: auto;
+    margin-bottom: 20px;
+    height: 100%;
+    width: 97%;
+    max-width: 400px;
 }
