@@ -1,0 +1,174 @@
+body {
+    /* background-image: url("Images/Background.jpg"); */
+    background: linear-gradient(to bottom, #000000, #5d625ed0);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.menu {
+    width: 100%;
+    height: 200px;
+    box-shadow: 0px 0px 20px black;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#about, #contact, #education, #experience, #skills {
+    display: inline-block;
+    background: none;
+    border: none;
+    font-size: 20px;
+    font-family: "Roboto Mono";
+    font-weight: 450;
+    color: gray;
+    position: absolute;
+    top: 50px;
+}
+
+#feedback {
+    display: inline-block;
+    background: none;
+    border: 2px solid;
+    font-size: 20px;
+    font-family: "Roboto Mono";
+    font-weight: bolder;
+    color: purple;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+}
+
+#contact {
+    right: 160px;
+}
+
+#about {
+    right: 290px;
+}
+
+#education {
+    right: 400px;
+}
+
+#experience {
+    right: 560px;
+}
+
+#skills {
+    right: 740px;
+}
+
+#about:hover, #contact:hover, #education:hover, #experience:hover, #skills:hover {
+    cursor: pointer;
+    color: white;
+    transform: translateY(3px);
+}
+
+#feedback:hover {
+    cursor: pointer;
+    color: rgb(22, 162, 92);   
+}
+
+#me {
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    left: 45%;
+}
+
+.intro {
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 45%;
+    left: 43%;
+    font-family: "Kanit";
+}
+
+.intro h1 {
+    color: white;
+}
+
+.intro:hover {
+    cursor: default;
+}
+
+#name {
+    color: white;
+    position: absolute;
+    font-size: 40px;
+    top: 30px;
+    left: 0px;
+    line-height:0.8em;
+}
+
+#name span {
+    color: rgba(236, 73, 144, 0.892);
+    font-weight: 550;
+}
+
+#profession {
+    color: rgba(24, 196, 181, 0.558);
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    top: 120px;
+    right: 25px;
+    border: 5px inset rgba(24, 196, 181, 0.558);
+    padding: 5px 35px;
+}
+
+.followMe {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgba(255, 255, 255, 0.712);
+    box-shadow: 5px 0px 30px black;
+}
+
+.followMe p {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: "Josefin Sans";
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.icons {
+    width: 450px;
+    font-size: 40px;
+    position: absolute;
+    left: 37%;
+}
+
+.fa-youtube {
+    position: absolute;
+}
+
+.fa-facebook {
+    position: absolute;
+    left: 20%;
+}
+
+.fa-linkedin {
+    position: absolute;
+    left: 40%;
+}
+
+.fa-square-x-twitter {
+    position: absolute;
+    left: 60%;
+}
+
+.fa-square-instagram {
+    position: absolute;
+    left: 80%;
+}
