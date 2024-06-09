@@ -1,9 +1,9 @@
 /* index.html */
-/* --------- */
-/* --------- */
-/* --------- */
-/* --------- */
-/* --------- */
+/* ---------- */
+/* ---------- */
+/* ---------- */
+/* ---------- */
+/* ---------- */
 
 #indexPage {
     background: linear-gradient(to bottom, #000000, #5d625ed0);
@@ -180,11 +180,11 @@
 }
 
 /* feedback.html */
-/* ------------ */
-/* ------------ */
-/* ------------ */
-/* ------------ */
-/* ------------ */
+/* ------------- */
+/* ------------- */
+/* ------------- */
+/* ------------- */
+/* ------------- */
 
 #feedbackPage {
     background-image: url("Background.jpg");
@@ -292,4 +292,23 @@
     height: 100%;
     width: 97%;
     max-width: 400px;
+}
+
+/* thankyou.html */
+/* ------------- */
+/* ------------- */
+/* ------------- */
+/* ------------- */
+/* ------------- */
+
+#thankyouPage h1 {
+    font-family: "Exo 2", arial, sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    border: 10px double black;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    transform: translateY(40vh);
 }
