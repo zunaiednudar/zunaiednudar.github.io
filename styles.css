@@ -312,3 +312,140 @@
     text-align: center;
     transform: translateY(40vh);
 }
+
+/* contact.html */
+/* ------------ */
+/* ------------ */
+/* ------------ */
+/* ------------ */
+/* ------------ */
+
+#contactPage body {
+    background-color:rgba(222, 184, 135, 0.3);
+}
+
+#contactPage img.upperPart {
+    width: 100vw;
+    height: 95vh;
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#contactPage form.upperPart {
+    display: block;
+    background-color: white;
+    border-radius: 20px;
+    width: 30vw;
+    z-index: 1;
+    position: absolute;
+    top: 10vh;
+    right: 5vw;
+    text-align: center;
+}
+
+#contactPage form.upperPart h1 {
+    color: black;
+    font-family:"Dancing Script", Courier, monospace;
+    font-size: 35px;
+}
+
+#contactPage form.upperPart div input {
+    width: 80%;
+    background-color: beige;
+    margin: 5px auto;
+    padding: 2% 5%;
+    border: 2px solid beige;
+    border-radius: 20px;
+}
+
+#contactPage form.upperPart div textarea {
+    width: 80%;
+    background-color: beige;
+    margin: 5px auto 10px auto;
+    padding: 5%;
+    max-height: 100px;
+    border: 2px solid beige;
+    border-radius: 20px;
+}
+
+#contactPage form.upperPart .fa-user, #contactPage form.upperPart .fa-envelope {
+    font-size: 30px;
+    margin: 10px auto;
+}
+
+#contactPage form.upperPart button {
+    background-color: rgba(137, 43, 226, 0.3);
+    color: rgba(0, 0, 0, 0.5);
+    font-family: "Arial Narrow" , Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    border: 1px solid rgba(137, 43, 226, 0.3);
+    border-radius: 30px;
+    margin-bottom: 20px;
+    padding: 0px 10%; 
+}
+
+#contactPage form.upperPart button:hover {
+    background-color: rgba(137, 43, 226, 0.566);
+    color: beige;
+}
+
+#contactPage form.upperPart button:active {
+    background-color: rgba(226, 43, 43, 0.566);
+    color: beige;
+}
+
+#contactPage div.upperPart {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(128, 94, 0, 0.679);
+    border: 1px solid rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    width: 50vw;
+    height: 95vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    box-shadow: 5px 0px 20px black;
+}
+
+#contactPage div.upperPart div.infobox {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    background: rgb(176, 138, 25);
+    color: rgb(78, 61, 3);
+    font-family: "Lexend", Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+    width: 80%;
+    height: 50%;
+    border: 20px double rgba(0, 0, 0, 0.225);
+    box-sizing: border-box;
+    box-shadow: -5px 5px 20px black;
+}
+
+#contactPage div.upperPart div.infobox p.email {
+    transform: translateY(-20px);
+}
+
+#contactPage div.upperPart div.infobox p.mobile {
+    transform: translateY(20px);
+}
+
+#contactPage div.lowerPart {
+    display: block;
+    background: black;
+    width: 100vw;
+    height: 5vh;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+}

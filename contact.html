@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html land="en" id="contactPage">
     <head>
-        <title>Md. Zunaied Nudar</title>
+        <title>Contact</title>
         <link rel="stylesheet" href="styles.css">
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
         <meta name="keywords" content="portfolio, PORTFOLIO, Portfolio, static, html, css">
         <meta name="description" content="This is a basic portfolio website, which I built for myself as a project">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,5 +13,24 @@
         <script src="https://kit.fontawesome.com/115498d46a.js" crossorigin="anonymous"></script>
     </head>
     <body>
+        <img src="Background2.jpg" class="upperPart">
+        <form class="upperPart">
+            <h1>Contact me</h1>
+            <i class="fa-solid fa-user"></i>
+            <div><input type="text" id="name" name="name" placeholder="Name" required></div>
+            <div><input type="email" id="email" name="email" placeholder="Email" required></div>
+            <i class="fa-solid fa-envelope"></i>
+            <div><textarea type="text" name="message" rows="10" minlength="0" maxlength="500" placeholder="Type here..."></textarea></div>
+            <button>Send</button>
+        </form>
+        <div class="upperPart">
+            <div class="infobox">
+                <p class="email"><u>Email</u>:</p>
+                <p class="email">zunaied4821@gmail.com</p>
+                <p class="mobile"><u>Mobile</u>:</p>
+                <p class="mobile">+8801326556700</p>
+            </div>
+        </div>
+        <div class="lowerPart"></div>
     </body>
 </html>
