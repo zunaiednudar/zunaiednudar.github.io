@@ -25,7 +25,7 @@
     background: none;
     border: none;
     font-size: 20px;
-    font-family: "Roboto Mono";
+    font-family: "Roboto Mono", arial, sans-serif;
     font-weight: 450;
     color: gray;
     position: absolute;
@@ -448,4 +448,71 @@
     bottom: 0;
     left: 0;
     z-index: 0;
+}
+
+/* about.html */
+/* ---------- */
+/* ---------- */
+/* ---------- */
+/* ---------- */
+/* ---------- */
+
+#aboutPage body {
+    background-color: rgb(238, 99, 122);
+}
+
+#aboutPage div {
+    background-color: beige;
+    border: 80px solid white;
+    margin: 8vh 10vw;
+}
+
+#aboutPage div img {
+    width: 100%;
+    height: 100%;
+    max-width: 380px;
+    max-height: 380px;
+    float: left;
+    margin: 5%;
+    transform: translateY(-30px);
+}
+
+#aboutPage div header {
+    text-align: center;
+    line-height: 1.5em;
+    margin: 0% 5%;
+}
+
+#aboutPage div header h1 {
+    font-family: "Lilita One", arial, sans-serif;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+
+#aboutPage div header h3 {
+    font-family: "Rowdies", arial, sans-serif;
+    font-size: 25px;
+    color: rgb(189, 21, 49);
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 1%;
+    margin-bottom: 1%;;
+}
+
+#aboutPage div header h3 span {
+    color: rgb(80, 128, 10);
+}
+
+#aboutPage div p {
+    font-family: "Orbitron", "Righteous", "Lilita One", arial, sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 0% 5% 0% 5%;
+    padding-bottom: 5%;
+}
+
+#aboutPage div p span {
+    color: rgb(8, 141, 116);
 }
