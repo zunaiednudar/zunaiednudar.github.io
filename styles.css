@@ -326,7 +326,7 @@
 
 #contactPage img.upperPart {
     width: 100vw;
-    height: 95vh;
+    height: 100vh;
     z-index: 0;
     position: absolute;
     top: 0;
@@ -340,7 +340,7 @@
     width: 30vw;
     z-index: 1;
     position: absolute;
-    top: 10vh;
+    top: 20vh;
     right: 5vw;
     text-align: center;
 }
@@ -405,7 +405,7 @@
     border: 1px solid rgba(255, 255, 255, 0);
     box-sizing: border-box;
     width: 50vw;
-    height: 95vh;
+    height: 100vh;
     position: absolute;
     top: 0;
     left: 0;
@@ -437,17 +437,6 @@
 
 #contactPage div.upperPart div.infobox p.mobile {
     transform: translateY(20px);
-}
-
-#contactPage div.lowerPart {
-    display: block;
-    background: black;
-    width: 100vw;
-    height: 5vh;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: 0;
 }
 
 /* about.html */
